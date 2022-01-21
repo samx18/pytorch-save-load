@@ -1,0 +1,17 @@
+name: torch
+channels:
+    - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - ipywidgets
+  - conda
+  - conda:
+    - ipykernel
+    - pytorch
+    - torchvision
+    - torchaudio
+    - torchserve
+    - cudatoolkit=11.3
+    - sklearn
